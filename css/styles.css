@@ -1,0 +1,125 @@
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.intro-section {
+    text-align: center;
+    background-color: #f4f4f4;
+    padding: 50px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #333;
+}
+
+.intro-content {
+    margin-top: 20px;
+}
+
+.cover-image {
+    max-width: 100%;
+    height: auto;
+}
+
+h1 {
+    font-size: 40px;
+    color: #333;
+}
+
+.intro-text {
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+.deploy-btn {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.deploy-btn:hover {
+    background-color: #0056b3;
+}
+
+.features-section {
+    padding: 50px;
+    text-align: center;
+}
+
+.features-section h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.feature {
+    display: inline-block;
+    width: 30%;
+    margin: 20px;
+}
+
+.feature img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.feature h3 {
+    font-size: 22px;
+    color: #333;
+}
+
+.feature p {
+    font-size: 16px;
+    color: #555;
+}
+
+.about-section {
+    background-color: #f9f9f9;
+    padding: 50px;
+    text-align: center;
+}
+
+.about-section h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.about-section p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.social-links a {
+    text-decoration: none;
+    color: #007bff;
+    font-size: 18px;
+}
+
+.github-link a {
+    font-size: 18px;
+    color: #333;
+    text-decoration: none;
+}
+
+.github-link a:hover {
+    color: #007bff;
+}
